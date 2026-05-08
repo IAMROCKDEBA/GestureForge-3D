@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="GestureForge 3D icon">
+  <defs>
+    <linearGradient id="g" x1="42" x2="470" y1="460" y2="52" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset=".48" stop-color="#A78BFA"/>
+      <stop offset="1" stop-color="#F472B6"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#020408"/>
+  <path d="M256 72 408 160v192L256 440 104 352V160L256 72Z" fill="none" stroke="url(#g)" stroke-width="22" filter="url(#glow)"/>
+  <path d="M256 142v228M160 196l96 60 96-60M160 316l96-60 96 60" fill="none" stroke="#EAF7FF" stroke-opacity=".76" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="256" cy="256" r="30" fill="#34D399"/>
+</svg>
